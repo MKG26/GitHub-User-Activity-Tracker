@@ -50,7 +50,7 @@ const getGithubEventList = async(req,res)=>{
 }
 
 const publicEventsForAUser = async(req,res)=>{
-    const {username} = req.body;
+    const {username} = req.params;
     console.log(username);
     if(!username){
         return res.status(400).json({message:"Please enter the username to view events"})
@@ -98,7 +98,7 @@ const publicEventsForAUser = async(req,res)=>{
 })}
 
 const getEventListForUser = async(req,res)=>{
-    const {username} = req.body;
+    const {username} = req.params;
     if(!username){
         return res.status(500).json({message:"Internal Server Error"});
     }
