@@ -33,3 +33,4 @@ node index.js
 node cli.js
 ```
 
+### Please make sure the server is on while running the cli.js script 
