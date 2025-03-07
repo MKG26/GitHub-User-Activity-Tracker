@@ -16,6 +16,11 @@ A simple Node.js and Express.js API that fetches **GitHub user activity** using 
 git clone https://github.com/peachjelly13/GitHub-User-Activity-Tracker.git
 cd GitHub-User-Activity-Tracker
 
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/peachjelly13/GitHub-User-Activity-Tracker.git
+cd GitHub-User-Activity-Tracker
+
 ### 2️⃣ Install Dependencies
 ```sh
 npm install
