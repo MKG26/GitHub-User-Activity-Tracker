@@ -18,6 +18,3 @@ cd GitHub-User-Activity-Tracker
 
 
 
-
-
-___note: Your server should be started and once its started in the terminal simply run the cli.js script you will be prompted to enter your username___
